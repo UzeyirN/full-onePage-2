@@ -28,6 +28,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to='contact'>Contact</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active" aria-current="page" to='add'>Add</Link>
+                            </li>
                         </ul>
                     </div>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">

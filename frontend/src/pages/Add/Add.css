@@ -1,5 +1,38 @@
-.input-wrapper{
+.input-wrapper {
     margin: 100px auto;
     width: 50%;
-    
+    display: flex;
+    justify-content: center;
+}
+
+.add-form {
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.add-input {
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border:1px solid lightslategray
+}
+
+.add-btn {
+    padding: 5px 25px;
+    border: none;
+    background-color: rgb(10, 128, 6);
+    color: white;
+    border-radius: 15px;
+}
+
+.add-btn:hover {
+    background-color: rgb(23, 160, 53);
+    transition: all 0.5s;
 }

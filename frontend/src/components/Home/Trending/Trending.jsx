@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../Trending/Trending.css'
 import '../Trending/Trending-card.css'
-import foto from '../../../media/herophoto.jpg'
+// import foto from '../../../media/herophoto.jpg'
 
 const Trending = () => {
 
@@ -27,9 +27,8 @@ const Trending = () => {
                             products?.map((product) => (
                                 <div className="col-3 card-wrapper ">
                                     <div className="card" style={{ width: "18rem" }}>
-                                        <div style={{overFlow:"hidden"}}>
-                                            <img style={{ width: "100%", height: "100%" }} src={product.image} class="card-img-top" alt="" />
-
+                                        <div className='card-img' style={{overFlow:"hidden"}}>
+                                            <img style={{ width: "100%", height: "100%",objectFit:"cover" }} src={product.image} class="card-img-top" alt="" />
                                         </div>
                                         <div class="card-body" style={{ textAlign: "center" }}>
                                             <h6>{product.category}</h6>

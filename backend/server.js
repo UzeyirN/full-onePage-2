@@ -35,7 +35,7 @@ const productSchema = new Schema(
 )
 
 mongoose.set('strictQuery', false);
-const Products = mongoose.model("authors", productSchema);
+const Products = mongoose.model("products", productSchema);
 
 const PORT = process.env.PORT;
 const DB = process.env.URL.replace("<password>", process.env.PASSWORD)
