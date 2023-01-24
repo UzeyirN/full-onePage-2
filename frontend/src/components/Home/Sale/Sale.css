@@ -1,0 +1,20 @@
+.sale-wrapper{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    background: url('https://www.energeticsinstitute.com.au/wp-content/uploads/2019/11/shopping-addictions.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sale-content{
+    text-align: center;
+    padding: 20px 0;
+}
+.shop-btn{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    background: blue;
+}
